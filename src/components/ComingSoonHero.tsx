@@ -9,13 +9,13 @@ const ComingSoonHero = () => {
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 animate-float">
-          <Car className="h-16 w-16" alt="Sawariyaan ride app icon" />
+          <Car className="h-16 w-16" />
         </div>
         <div className="absolute top-40 right-20 animate-float" style={{ animationDelay: '2s' }}>
-          <MapPin className="h-12 w-12" alt="Karachi location marker" />
+          <MapPin className="h-12 w-12" />
         </div>
         <div className="absolute bottom-20 left-1/4 animate-float" style={{ animationDelay: '4s' }}>
-          <Navigation className="h-20 w-20" alt="Smart route navigation" />
+          <Navigation className="h-20 w-20" />
         </div>
       </div>
 
@@ -57,17 +57,17 @@ const ComingSoonHero = () => {
           {/* Preview Features */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-slide-in" style={{ animationDelay: '0.5s' }}>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-              <Car className="h-8 w-8 text-sawariyaan-green mb-3 mx-auto" alt="Premium vehicle fleet icon" />
+              <Car className="h-8 w-8 text-sawariyaan-green mb-3 mx-auto" />
               <h4 className="font-semibold mb-2">Premium Fleet in Karachi</h4>
               <p className="text-sm text-gray-300">Modern, comfortable vehicles for Karachi's roads</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-              <MapPin className="h-8 w-8 text-sawariyaan-green mb-3 mx-auto" alt="Real-time GPS tracking icon" />
+              <MapPin className="h-8 w-8 text-sawariyaan-green mb-3 mx-auto" />
               <h4 className="font-semibold mb-2">Live Tracking</h4>
               <p className="text-sm text-gray-300">Know exactly where your ride is in real-time</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-              <Navigation className="h-8 w-8 text-sawariyaan-green mb-3 mx-auto" alt="AI-powered smart routing icon" />
+              <Navigation className="h-8 w-8 text-sawariyaan-green mb-3 mx-auto" />
               <h4 className="font-semibold mb-2">Smart Routes for Karachi</h4>
               <p className="text-sm text-gray-300">AI-powered navigation for fastest routes in the city</p>
             </div>

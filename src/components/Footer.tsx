@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo */}
           <div className="flex items-center justify-center space-x-2 mb-6">
             <div className="bg-sawariyaan-green p-2 rounded-lg">
-              <Car className="h-6 w-6 text-white" alt="Sawariyaan logo" />
+              <Car className="h-6 w-6 text-white" />
             </div>
             <span className="text-xl font-bold">SAWARIYAAN</span>
           </div>
@@ -21,11 +21,11 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="flex justify-center space-x-8 mb-8">
             <div className="flex items-center space-x-2">
-              <Mail className="h-4 w-4 text-sawariyaan-green" alt="Email contact" />
+              <Mail className="h-4 w-4 text-sawariyaan-green" />
               <span className="text-sm text-gray-300">info@sawariyaan.com</span>
             </div>
             <div className="flex items-center space-x-2">
-              <MapPin className="h-4 w-4 text-sawariyaan-green" alt="Service location" />
+              <MapPin className="h-4 w-4 text-sawariyaan-green" />
               <span className="text-sm text-gray-300">Launching in Karachi, Pakistan</span>
             </div>
           </div>
