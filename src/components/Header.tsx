@@ -9,7 +9,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="bg-sawariyaan-blue p-2 rounded-lg">
-              <Car className="h-8 w-8 text-white" />
+              <Car className="h-8 w-8 text-white" alt="Sawariyaan ride-hailing app logo" />
             </div>
             <span className="text-2xl font-bold text-sawariyaan-blue">SAWARIYAAN</span>
           </div>
